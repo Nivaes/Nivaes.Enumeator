@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netstandard2.0</TargetFrameworks>
+    <PackageId>Nivaes.Enumeator</PackageId>
+    <Title>Nivaes Enumeator</Title>
+    <AssemblyName>Nivaes.Enumeator</AssemblyName>
+    <RootNamespace>Nivaes</RootNamespace>
+    <GeneratePackageOnBuild Condition="'$(Configuration)' == 'Release'">true</GeneratePackageOnBuild>
+    <Product>Enumeator utils</Product>
+    <Description>Enumeator utrils.</Description>
+    <PackageTags>Nivaes;Enumerator</PackageTags>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="Images\icon.png" Pack="true" PackagePath="\" />
+  </ItemGroup>
+  
+</Project>
